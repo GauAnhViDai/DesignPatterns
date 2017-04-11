@@ -61,10 +61,6 @@
 #include "03_BehavioralPatterns/Visitor/HelloWorldCharacterElements.h"
 #include "03_BehavioralPatterns/Visitor/HelloWorldCharacterVisitor.h"
 
-#include "email/ClassA.h"
-#include "email/ClassB.h"
-#include "email/ClassC.h"
-
 #include "Utils/StringUtils.h"
 
 int main(int argc, char **argv) {

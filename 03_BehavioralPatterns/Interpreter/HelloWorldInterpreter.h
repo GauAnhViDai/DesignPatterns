@@ -10,7 +10,7 @@
 
 #include <iostream>
 #include <map>
-#include "../../../Utils/StringUtils.h"
+#include "../../Utils/StringUtils.h"
 
 namespace DesignPatterns {
 

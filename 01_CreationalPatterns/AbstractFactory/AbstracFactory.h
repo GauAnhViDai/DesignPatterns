@@ -25,27 +25,10 @@ public:
 
 //	AbstracFactory(SplitHelloWorldFactory* splitHelloWorldFactory);
 
-//	void
-
 	static SplitHelloWorldFactory* select(Type type);
 
 private:
-//	SplitHelloWorldFactory* splitHelloWorldFactory;
 
-//	static std::unordered_map<Type, SplitHelloWorldFactory*> map {{Cpp,new CppSplitHelloWorldFactory()},{DesignPattern, new DesignPatternSplitHelloWorldFactory()}};
-//
-//	SplitHelloWorldFactory* createSplitHelloWorldFactory(std::string& type);
-
-//    static {
-//        map = new HashMap<Type, Class<? extends SplitHelloWorldFactory>>();
-//        map.put(Type.Java, JavaSplitHelloWorldFactory.class);
-//        map.put(Type.DesignPattern, DesignPatternSplitHelloWorldFactory.class);
-//    }
-//
-//public:
-//    static SplitHelloWorldFactory* select(Type type) {
-//        return map[type];
-//}
 };
 
 } /* namespace AbstractFactory */

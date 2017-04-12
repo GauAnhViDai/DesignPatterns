@@ -61,7 +61,6 @@ public:
 			std::string separator) {
 		std::size_t found = str.find(separator);
 		if (found != std::string::npos) {
-			std::cout << "position\t" << found << std::endl;
 			return str.substr(0, found);
 		} else {
 			return str;
@@ -73,7 +72,6 @@ public:
 	 */
 	inline static std::string substringAfter(std::string str,
 			std::string separator) {
-		std::cout << "string\t" << str << " \t separator\t" << separator << std::endl;
 		std::size_t found = str.find_first_of(separator);
 		if (found != std::string::npos) {
 			return str.substr(found + 1, str.length() - found);
@@ -86,8 +84,6 @@ public:
 			const std::string &to);
 	static bool replaceLast(std::string &str, const std::string &from,
 			const std::string &to);
-	static bool startsWith(const std::string &str, const std::string &prefix);
-	static bool endsWith(const std::string &str, const std::string &suffix);
 
 //	template<typename T >
 //	static std::string toString(T value);

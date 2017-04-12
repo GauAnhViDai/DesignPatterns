@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 2.8.12)
 project (DesignPatterns)
 
-set (CMAKE_CXX_STANDARD 11)
+add_compile_options(-std=gnu++11)
+#set (CMAKE_CXX_STANDARD 11)
 
 #file(GLOB_RECURSE DesignPattern_SOURCES "DesignPatterns/*.cpp")
 #file(GLOB_RECURSE DesignPattern_HEADERS "DesignPatterns/*.h")
